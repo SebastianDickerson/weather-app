@@ -5,6 +5,8 @@ use Illuminate\Support\ServiceProvider;
 
 return [
 
+    'openweather_api' => env('OPEN_WEATHER_API_KEY'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Name
